@@ -1,0 +1,4 @@
+gym
+gym[toy_text]
+numpy
+pygame
