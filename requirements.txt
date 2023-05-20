@@ -2,3 +2,9 @@ gym
 gym[toy_text]
 numpy
 pygame
+tkinter
+tksheet
+pandas
+seaborn
+matplotlib
+customtkinter
