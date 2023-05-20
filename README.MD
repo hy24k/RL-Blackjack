@@ -17,7 +17,7 @@ Improve the policy function through an iterative process of simulation and evalu
  **RL Algorythm** <br>
  Monte Carlo Control is employed to estimate the state-action values, and an epsilon-greedy policy is used to balance exploration and exploitation. The study provides insights into the effectiveness of Monte Carlo Control in learning optimal policies for playing Blackjack and contributes to the field of RL and decision-making in uncertain environments.
 
- **Environment**
+ **Environment**<br>
  The OpenAI Gym environment is utilized in this study. The Blackjack environment from the OpenAI Gym library is employed to simulate the game and interact with the RL agent.
 
  ---
@@ -34,13 +34,27 @@ Improve the policy function through an iterative process of simulation and evalu
 ---
 
 **Clonning repo**
-```sh
+
+For linux:
+```bash
 git clone https://github.com/hy24k/RL-Blackjack
 
-cd RL_Blackjack
+cd RL-Blackjack
 python -m venv venv
-source ./venv/activate
+source ./venv/bin/activate
 pip install -r ./requirements.txt
+
+```
+
+For Windows:
+```ps1
+git clone https://github.com/hy24k/RL-Blackjack
+
+cd RL-Blackjack
+python -m venv venv
+./venv/Scripts/activate.ps1
+pip install -r ./requirements.txt
+
 ```
 
 ---
@@ -56,7 +70,5 @@ python ./gui.py
 ---
 
 Python  version `3.11.3`
-
----
 
 # EOD
