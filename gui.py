@@ -1,7 +1,7 @@
 from utils.utils import *
 
 # load agent
-df = import_agent_knowledge_from_file('./data/opt0.csv')
+df = import_agent_knowledge_from_file('./data/profile_v2.csv')
 
 
 class MainWindow:
